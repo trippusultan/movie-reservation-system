@@ -13,7 +13,4 @@ uvicorn app.main:app --reload
 
 ## Test
 Use the project virtual environment:
-venv/Scripts/python -m pytest -v
-
-Windows PowerShell:
-pytest.cmd -v
+venv/Scripts/python.exe -m pytest -v
