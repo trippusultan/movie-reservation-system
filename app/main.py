@@ -57,6 +57,11 @@ def get_current_admin(user: User = Depends(get_current_user)):
     return user
 
 
+@app.get("/")
+def root():
+    return {"name": "Movie Reservation System", "docs": "/docs", "health": "/health"}
+
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
