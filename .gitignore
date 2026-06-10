@@ -1,0 +1,10 @@
+venv/
+img-venv/
+movies.db
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.env
+.DS_Store
+Thumbs.db
