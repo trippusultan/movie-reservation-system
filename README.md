@@ -12,4 +12,8 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 
 ## Test
-pytest -v
+Use the project virtual environment:
+venv/Scripts/python -m pytest -v
+
+Windows PowerShell:
+pytest.cmd -v
